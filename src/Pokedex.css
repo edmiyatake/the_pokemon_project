@@ -1,7 +1,23 @@
+.Pokedex {
+  text-align: center;
+}
+
+.Pokedex h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.Pokedex p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
 .Pokedex-cards {
     display:flex; 
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .Pokedex-cards img {
